@@ -34,3 +34,4 @@ def drug_sim(input_csv_file_name, output_csv_file_name):
             f = open(output_csv_file_name, 'a+')
             f.write(k1 +',' + k2 +',' + str(tanimoto)+ ',' + str(dice) + ',' + str(cos)+ ',' + str(average)+ '\n')
             f.close()
+
