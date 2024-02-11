@@ -67,3 +67,4 @@ def iterates_over_drug_files_to_get_features(file_in):
         fragment_dictionary = drug_fragments(drug)
         output[drug] = fragment_dictionary
     return output
+
